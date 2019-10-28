@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalog Submission 4</string>
+    <string name="release_on">Diluncurkan pada</string>
+    <string name="score">skor</string>
+    <string name="poster_movie_catalogue">Poster Katalog Film</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="tab_text_1">Film</string>
+    <string name="tab_text_2">Acara TV</string>
+    <string name="tab_text_3">Favorit</string>
+    <string name="voters">Pemilih</string>
+    <string name="detail">Detail</string>
+    <string name="not_found">Tidak Ditemukan</string>
+    <string name="tab_text_favorite_2">TV Show Favorit</string>
+    <string name="tab_text_favorite_1">Movies Favorit</string>
+    <string name="movie_name">Nama Film</string>
+    <string name="date">Tanggal</string>
+    <string name="description">Keterangan</string>
+    <string name="favorite">Favorit</string>
+    <string name="share">Berbagi</string>
+    <string name="title">Title</string>
+    <string name="vote_average">Vote Rata-rata</string>
+</resources>
