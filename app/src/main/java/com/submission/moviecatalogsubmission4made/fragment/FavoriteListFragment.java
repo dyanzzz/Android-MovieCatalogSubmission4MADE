@@ -38,6 +38,7 @@ import static com.submission.moviecatalogsubmission4made.fragment.MainFragment.E
 
 public class FavoriteListFragment extends Fragment implements LoadFavoritesCallback {
 
+    private RecyclerView rvFavorite;
     private ProgressBar progressBar;
     private TvShowHelper tvShowHelper;
     private MovieAdapter movieAdapter;
@@ -52,7 +53,7 @@ public class FavoriteListFragment extends Fragment implements LoadFavoritesCallb
                              @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.list_fragment, container, false);
         progressBar = view.findViewById(R.id.progress_list);
-        RecyclerView rvFavorite = view.findViewById(R.id.rv_list);
+        rvFavorite = view.findViewById(R.id.rv_list);
         textViewNotFound = view.findViewById(R.id.textViewNotFound);
 
         rvFavorite.setHasFixedSize(true);
